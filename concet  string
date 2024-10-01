@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<string.h>
+int main (){
+
+    char str1[]="king";
+    char str2[]="ramkaran";
+    char str[100];
+     strcpy(str, str1);   
+    strcat(str, str2);
+   
+    printf("%s\n",str);
+    return 0;
+}
